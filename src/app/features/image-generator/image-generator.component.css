@@ -1,0 +1,351 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.content .templates-container {
+  background-color: #fff;
+  border-radius: 10px;
+  /* padding: 20px; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content .templates-container h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.content .templates-container .templates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.content .templates-container .template {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.content .templates-container .template h3 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.content .templates-container .template p {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+
+.content .templates-container .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content .templates-container .buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.content .templates-container .buttons a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content .send-container {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  /* margin-left: 10px; */
+  position: fixed;
+  bottom: 10px;
+}
+
+.content .send-container .message {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.content .send-container .message input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.content .send-container .send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.content .send-container .send-button i {
+  font-size: 1.5rem;
+}
+.content .chat-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content .chat-container h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.content .chat-container .upload-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content .chat-container .upload-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.content .chat-container .upload-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.content .chat-container .upload-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 20px;
+  width: 83%;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.content .chat-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content .chat-container h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.content .chat-container .upload-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content .chat-container .upload-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.content .chat-container .upload-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.content .chat-container .upload-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content .ai-presentation,
+.content .ai-image {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.content .ai-presentation h3,
+.content .ai-image h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.content .ai-presentation .buttons,
+.content .ai-image .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.content .ai-presentation .buttons button,
+.content .ai-image .buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.content .ai-presentation .buttons a,
+.content .ai-image .buttons a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content .ai-presentation .image,
+.content .ai-image .image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.content .ai-presentation .image img,
+.content .ai-image .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content .ai-presentation .image .checkmark,
+.content .ai-image .image .checkmark {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.content .templates-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content .templates-container h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.content .templates-container .templates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.content .templates-container .template {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.content .templates-container .template h3 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.content .templates-container .template p {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+
+.content .templates-container .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content .templates-container .buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.content .templates-container .buttons a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content .standard-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.content .standard-dropdown select {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.content .standard-dropdown select option {
+  background-color: #fff;
+}
+
+.content .standard-dropdown i {
+  font-size: 1.5rem;
+}
+
+.conversation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.conversation img{
+  margin: auto;
+  width: 50%;
+  border-radius: 30px;
+  margin-top: 20px;
+}

@@ -1,0 +1,64 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.content .send-container {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  /* margin-left: 10px; */
+  position: fixed;
+  bottom: 10px;
+}
+
+.content .send-container .message {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.content .send-container .message .input-style {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 20px;
+  width: 83%;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.conversation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ai-message {
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.user-message {
+  text-align: right;
+  justify-content: end;
+  padding: 10px;
+  border-radius: 10px;
+}
